@@ -1,5 +1,5 @@
 module "mario" {
-  source = "git::git@github.com:jperez3/taccoform-modules.git//tacco-corp/bootstrap?ref=bootstrap"
+  source = "git::git@github.com:jperez3/terraform-bootstrap.git//service?ref=main"
 
   service = "mario"
 }
