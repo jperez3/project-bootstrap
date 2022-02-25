@@ -1,6 +1,5 @@
 module "mario" {
-#   source = "git::git@github.com:jperez3/terraform-bootstrap.git//service?ref=main"
-  source = "/Users/joe/git/jperez3/terraform-bootstrap/service"
+  source = "git::git@github.com:jperez3/terraform-bootstrap.git//service?ref=main"
 
   service = "mario"
 }
